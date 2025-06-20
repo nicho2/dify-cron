@@ -62,6 +62,8 @@ Wildcards, lists, and step values like `*/5` are supported.
 For example, `0,15,30,45 * * * * *` will trigger the workflow every fifteen seconds.
 `0 */5 * * * *` runs every five minutes.
 
+Note: to apply changes to the Cron string, you must disable the service and then re-enable it.
+
 ## Reference
 
 - Repository: https://github.com/yt-koike/dify-cron
